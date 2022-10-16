@@ -1,0 +1,24 @@
+.accordion
+{
+    width: 200px;
+}
+
+.accordion-item
+{
+    border: none !important;
+}
+.accordion-button
+{
+    color: #ff000f !important;
+    outline: none !important;
+    background-color: white !important;
+}
+
+.color
+{
+    width: 20px !important;
+    height: 20px !important;
+    border: 1px solid silver;
+    border-radius: 3px !important;
+    margin-right: 5px !important;
+}

@@ -1,0 +1,120 @@
+
+.basket-content
+{
+    width: 400px;
+    margin-top: 150px;
+    flex-direction: column;
+    z-index: 999999999999999999999999 !important;
+}
+
+.cart-item
+{
+    height: 120px;
+    width: 100%;
+    margin: 5px 0;
+    background-color: rgba(192, 192, 192, 0.37);
+    position: relative;
+}
+
+.cart-del
+{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3%;
+    right: 3%;
+    transition: 0.5s;
+}
+.cart-del:hover
+{
+    transition: 0.5s;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cart-image
+{
+ height: 100%;
+ width: 100px;
+}
+.cart-image img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.cart-content
+{
+    height: 100%;
+    width: 70%;
+    padding: 10px;
+}
+
+.cart-title
+{
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 15px;
+letter-spacing: 0.05em;
+color: #3E3E3E;
+}
+.cart-subtitle
+{
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 17px;
+letter-spacing: 0.05em;
+color: #666666;
+}
+.cart-price
+{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.05em; 
+    color: #FF0000;
+}
+
+.cart-operation
+{
+    width: 110px;
+    height: 35px;
+    margin-top: 5px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    border: 1px solid silver;
+}
+
+.cart-oper
+{
+    height: 35px;
+    cursor: pointer;
+    width: 35px;
+    background-color: silver;
+    transition: 0.3s;
+}
+.cart-oper:hover
+{
+    background-color: rgb(153, 153, 153);
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+

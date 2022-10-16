@@ -1,0 +1,54 @@
+.dropdowns
+{
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+.cate-ul
+{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.cate-li
+{
+  width: 250px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+  border-radius: 8px;
+  margin: 5px 0;
+  color: black !important;
+}
+.cate-li i
+{
+  color: black !important;
+}
+
+.cate-li:hover
+{
+  background-color: #f31a1a28;
+  transition: 0.3s;
+  color: #ff000f !important;
+}
+
+.cate-li span
+{
+  width: 150px;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  justify-content: flex-start;
+}
+
+
+
+
+
+
+
+

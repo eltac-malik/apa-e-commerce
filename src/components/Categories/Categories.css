@@ -1,0 +1,80 @@
+.categories {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+.categories ul {
+  display: flex;
+}
+
+.categories ul li {
+  padding: 0 20px;
+  cursor: pointer;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.019em;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+
+.categories ul li:hover
+{
+    color: #FF0000;
+}
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-icon
+{
+  position: relative;
+}
+
+.dropdowns
+{
+  position: absolute !important;
+  left: 10px !important;
+  top: 60px !important;
+  width: 1300px !important;
+  height: 600px !important;
+  
+}
+
+.opened
+{
+  display: block;
+}
+.closed
+{
+  display: none;
+}
+
+@media(max-width:900px)
+{
+  .categories
+  {
+    padding: 20px !important;
+  }
+  .category-ul
+  {
+    display: none !important;
+  }
+}
